@@ -1,0 +1,25 @@
+.row-eq-height
+{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
+.vertical-align
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.shadow
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.attention:hover
+{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

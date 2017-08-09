@@ -1,0 +1,1 @@
+<a class="btn btn-primary q-box-button" href="<?= $tplData->getBtnAddHref() ?>"><?= $tplData->getBtnAddCaption() ?></a>

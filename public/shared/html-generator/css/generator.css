@@ -1,0 +1,45 @@
+/* Make inline editables take the full width of their parents */
+.editable-container.editable-inline,
+.editable-container.editable-inline .control-group.form-group,
+.editable-container.editable-inline .control-group.form-group .editable-input,
+.editable-container.editable-inline .control-group.form-group .editable-input textarea,
+.editable-container.editable-inline .control-group.form-group .editable-input select,
+.editable-container.editable-inline .control-group.form-group .editable-input input:not([type=radio]):not([type=checkbox]):not([type=submit])
+{
+  width: 100%;
+}
+.editable-error-block.help-block {
+  max-width: 100%;
+}
+
+a.editable {
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+
+.xedit-margin
+{
+  margin: 0;
+}
+
+.q-box-title {text-align: none;}
+.q-box-button {  float: right !important;}
+@media (max-width: 767px){
+  .q-box-title {text-align: center;}
+  .q-box-button {  float: none !important;}
+}
+
+/* Override the border bottom */
+.editable-click,
+a.editable-click,
+a.editable-click:hover {
+  text-decoration: none;
+  border-bottom: dashed 1px #000000;
+}

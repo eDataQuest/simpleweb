@@ -1,0 +1,1 @@
+<h4 class="text-primary text-uppercase"><strong><i class="icon fa fa-lg text-primary <?= $tplData->getTitleIcon() ?>"></i> <?= $tplData->getTitleCaption() ?></strong></h4>
