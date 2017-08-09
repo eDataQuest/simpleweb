@@ -3,6 +3,10 @@ Simple Website
 
 How to install on a Mac
 
+Install docker stable for mac
+
+https://docs.docker.com/docker-for-mac/install/
+
 open terminal
 
 md projects
