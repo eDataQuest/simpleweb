@@ -3,7 +3,9 @@ Simple Website
 
 How to install on a Mac
 
-Install docker stable for mac
+Make you have access to command line git.
+
+Install docker(stable) on your mac
 
 https://docs.docker.com/docker-for-mac/install/
 
