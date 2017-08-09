@@ -9,7 +9,7 @@ https://docs.docker.com/docker-for-mac/install/
 
 open terminal
 
-md projects
+mkdir projects
 
 cd projects
 
