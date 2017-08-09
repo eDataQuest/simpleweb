@@ -22,7 +22,7 @@ docker build -t edataquest/simpleweb .
 
 docker run --rm --name simpleweb -p 80:80 -t -i edataquest/simpleweb
 
-Open browser and browse to localweb
+Open browser and browse to localhost
 
 
 
